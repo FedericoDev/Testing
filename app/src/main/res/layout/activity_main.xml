@@ -6,32 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<TextView
-    android:id="@+id/bdaylouis"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentStart="true"
-    android:layout_alignParentTop="true"
-    android:fontFamily="sans-serif-light"
-    android:text="Happy Birthday Louis!"
-    android:textColor="#EC407A"
-    android:textSize="36sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bday"
+        android:contentDescription="BirthdayCard"
+        android:scaleType="centerCrop"/>
 
-<TextView
-    android:id="@+id/fede"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
-    android:layout_alignParentEnd="true"
-    android:fontFamily="sans-serif-light"
-    android:text="From, Fede"
-    android:textSize="36sp"
-    android:textColor="#00BCD4" />
+    <TextView
+        android:id="@+id/bdaylouis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-light"
+        android:text="Happy Birthday Louis!"
+        android:textColor="#EC407A"
+        android:textSize="36sp"
+        android:padding="8dp"/>
 
-<ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/bday"
-    android:contentDescription="BirthdayCard"/>
+    <TextView
+        android:id="@+id/fede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="sans-serif-light"
+        android:text="From, Fede"
+        android:textSize="36sp"
+        android:textColor="#04808f"
+        android:padding="8dp"/>
+
 
 </RelativeLayout>
